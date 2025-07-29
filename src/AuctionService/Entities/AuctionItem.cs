@@ -15,4 +15,11 @@ public class AuctionItem
     public string ImageUrl { get; set; }
 
     public DateTime DateOfBirth { get; set; }
+
+    // properties
+
+    public Auction Auction { get; set; }
+
+    public Guid AuctionId { get; set; }
+
 }
